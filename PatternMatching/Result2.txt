@@ -1,0 +1,6 @@
+FSM:          3.230700
+Hash:          8.836100
+KMP:          4.652900
+BruteForce:          4.053700
+Sunday:          4.427400
+number of char: 304697

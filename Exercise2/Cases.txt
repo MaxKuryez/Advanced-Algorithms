@@ -1,0 +1,17 @@
+1.Sunday at least 2 times faster then brute force:
+pat = "lol", text = "lolklolklolklolklolklolklolklolklolklolklolklolklolklolklolklolklolklolklolklolklolklolklolklol"
+reason: You skip a lot in sunday
+
+2.Sunday at least 2 times fatser then KMP:
+pat = "lol", text = "lolklolklolklolklolklolklolklolklolklolklolklolklolklolklolklolklolklolklolklolklolklolklolklol"
+reason: You also skip a lot in sunday
+
+3.KMP at least 2 times faster then Rabin - Karp :
+pat = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+text = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+you have very many occurances of the same pattern so Hash checks a lot for each one and the pattern is long
+
+4.Rabin-Karp at least 2 times faster then Sunday:
+pat = "qwertyuiopasdfghjklzxcvbnm,./'][;1234567890"
+text = "fiwuehfiwuehfiuwehfiuhfksjdhfkjsdhfjshdjkfjsdfhsjdfhkjsdhfjshdfkjhsdjfksdjsjhkjhaskdjhakjhdakjshdkjasdjakshdkajshdkajhsdkjashdkjashdkjahsdkjahskjdhaksjdhjashdkajshdkjashdkjashdkjahsdkjajkdakjsdhkajshdkjashdkjahskdjhaksjdhkjashdkjashdkjashdkjasdkjasdkjahsdjkahskjdhakjsdhjashdkjashdkjashdkjahsjdhakjsdhakjsdhkjasdhkjashdkjahsdkjahskdhaskjdhakjsdhkajshdkjahsdkjahsdkjahskjdhaksdhakjshdkjashdkjashdkjahsdkjhaskjdhakjsdhakshdkajshdkajshdkajshdkjahsdkjahsdkasdhaksdhakjshdkjashdkjashdkjashdkahsdkjahsdkajshdakjsdhkajshdakjshdkajshdkajshdkjashdkajshdkajshdkajshdkashdkajhsdkajshdkajshdakjshakshdkajshdakjshdkashdakjsdhalsdkjaskldjaksjdkasjdkjaksdjlajsdlasdjaslkdjaslkdjalksdjlkasdlkajsdkljalsdjlasjdlkasjdlkasjdlkasaaslkdjakjshlkashdlkahsdljahsbdjlahsdjashgdkjashgdjkahsgdkjagsdjkagsdkjahgsdjhasgdjakshgdjasgdjasgdjkahsgdjahsgdjagsdjhasgdjashgdjasgdjashgdjkashgdjahsgdjhagsdjkhagsdjkhagsjkdgajshgdakjsgdakjhgsdjkashgdjakshgdja"
+Rabin karp doesn't check at all since there are no occurances and also Sunday never skips so it is slower

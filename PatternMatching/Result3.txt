@@ -1,0 +1,6 @@
+FSM:          14.722900
+Hash:          46.605200
+Sunday:          8.082700
+KMP:          21.392800
+BruteForce:          14.150800
+number of el: 1746077

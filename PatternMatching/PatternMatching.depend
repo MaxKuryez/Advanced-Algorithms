@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1554975998 source:c:\users\hp\desktop\advancedalgproj\patternmatching\main.cpp
+	<iostream>
+	<string>
+	"Algorithms.h"
+	<fstream>
+	<streambuf>
+	<chrono>
+	<windows.h>
+	<iomanip>
+
+1554975821 source:c:\users\hp\desktop\advancedalgproj\patternmatching\src\algorithms.cpp
+	"Algorithms.h"
+
+1554763120 c:\users\hp\desktop\advancedalgproj\patternmatching\include\algorithms.h
+	<string>
+	<iostream>
+
+1554975821 source:c:\users\hp\desktop\advancedalgorithms_maksimkuryez\patternmatching\src\algorithms.cpp
+	"Algorithms.h"
+
+1554763120 c:\users\hp\desktop\advancedalgorithms_maksimkuryez\patternmatching\include\algorithms.h
+	<string>
+	<iostream>
+
+1554976234 source:c:\users\hp\desktop\advancedalgorithms_maksimkuryez\patternmatching\main.cpp
+	<iostream>
+	<string>
+	"Algorithms.h"
+	<fstream>
+	<streambuf>
+	<chrono>
+	<windows.h>
+	<iomanip>
+
